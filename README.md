@@ -63,7 +63,9 @@ python3 net_scan.py -H 192.168.1.1 -p 80
 🛠️ Próximas mejoras
 
 - Multithreading para acelerar el escaneo
-- Versión con interfaz gráfica (GUI) usando tkinter
+- Soporte para escaneos de tipo UDP
+- Escaneo de red basado en subredes (subnet scanning)
+- Versión con interfaz gráfica (GUI) con Tkinter compatible con Windows
 
 ---
 
