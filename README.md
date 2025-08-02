@@ -69,5 +69,5 @@ python3 net_scan.py -H 192.168.1.1 -p 80
 
 📚 Créditos
 
-Desarrollado por b4dr3flxz
+Desarrollado por [b4dr3flxz](https://github.com/b4dr3flxz)
 Inspirado en ejercicios y contenidos de la academia de [s4vitar](https://youtube.com/@s4vitar) y la plataforma [Hack4u](https://hack4u.io)
