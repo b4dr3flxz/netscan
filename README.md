@@ -13,11 +13,12 @@ Este es un escáner de puertos TCP desarrollado como parte de mi aprendizaje en 
 
 ---
 
-## 📢 Novedades
+## 📢 Ultimas novedades
 
 - Implementado escaneo por rangos (`1-1000`)
 - Soporte para múltiples puertos (`22,80,443`)
 - Limpieza y mejoras de rendimiento general
+- Se aceleró el escaneo haciendo uso de ThreadPoolExecutor
 
 ---
 
@@ -88,7 +89,6 @@ python3 net_scan.py -H 192.168.1.1 -p 1-443
 
 ## 🛠️ Próximas mejoras
 
-- Multithreading para acelerar el escaneo
 - Soporte para escaneos de tipo UDP
 - Escaneo de red basado en subredes (subnet scanning)
 - Versión con interfaz gráfica (GUI) con Tkinter compatible con Windows
