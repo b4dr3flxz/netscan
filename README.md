@@ -60,7 +60,33 @@ python3 net_scan.py -H 192.168.1.1 -p 80
 
 ---
 
-🛠️ Próximas mejoras
+## Instalación
+1. Clona el repositorio
+   
+```bash
+git clone https://github.com/usuario/tu-proyecto.git
+cd tu-proyecto
+```
+2. Crea y activa un entorno virtual (Recomendado)
+   
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+3. Instala las dependencias
+
+```bash
+pip install -r requirements.txt
+```
+4. Ejecuta la herramienta
+   
+```bash
+python3 net_scan.py -H 192.168.1.1 -p 1-443
+```
+
+---
+
+## 🛠️ Próximas mejoras
 
 - Multithreading para acelerar el escaneo
 - Soporte para escaneos de tipo UDP
@@ -69,7 +95,7 @@ python3 net_scan.py -H 192.168.1.1 -p 80
 
 ---
 
-📚 Créditos
+## 📚 Créditos
 
 Desarrollado por [b4dr3flxz](https://github.com/b4dr3flxz)
 Inspirado en ejercicios y contenidos de la academia de [s4vitar](https://youtube.com/@s4vitar) y la plataforma [Hack4u](https://hack4u.io)
