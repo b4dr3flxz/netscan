@@ -64,8 +64,8 @@ python3 net_scan.py -H 192.168.1.1 -p 80
 1. Clona el repositorio
    
 ```bash
-git clone https://github.com/usuario/tu-proyecto.git
-cd tu-proyecto
+git clone https://github.com/b4dr3flxz/net_scan.git
+cd netscan
 ```
 2. Crea y activa un entorno virtual (Recomendado)
    
